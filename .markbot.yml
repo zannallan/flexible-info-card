@@ -1,0 +1,29 @@
+repo: "flexible-info-card"
+canvasCourse: "web-design-2"
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - css
+  - body-margin-0
+  - border-box
+
+html:
+  - path: "index.html"
+    locked: true
+
+css:
+  - path: "css/main.css"
+    has:
+      - ["html", "font-family", '"Open Sans", sans-serif']
+      - ["html", "line-height", "1.5"]
+    search:
+      - "display: flex"
+      - "justify-content"
+      - "align-items"
+      - "#444"
+      - "#ccc"
+
+screenshots:
+  - path: "index.html"
+    sizes: [1000]

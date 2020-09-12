@@ -4,6 +4,10 @@ html {
   line-height: 1.5;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #ccc;
   margin: 1.5rem;

@@ -10,11 +10,12 @@ html {
 
 body {
   background-color: #ccc;
-  margin: 1.5rem;
+  margin: 0;
 }
 
 section {
   text-align: center;
+  margin: 1.5rem;
 }
 
 img {
@@ -51,7 +52,7 @@ p {
 
 li a {
   background-color: #444;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   padding: 1rem;
 }
